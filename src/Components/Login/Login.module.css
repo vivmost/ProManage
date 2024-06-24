@@ -108,3 +108,30 @@ h4 {
 p {
   color: #828282;
 }
+
+i {
+  color: #828282;
+}
+
+.input_container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input_field {
+  padding: 10px 10px 10px 35px;
+  border: 1px solid #ccc;
+}
+
+i:first-child {
+  position: absolute;
+  left: 16px;
+}
+
+i:last-child {
+  position: absolute;
+  right: 16px;
+  cursor: pointer;
+}

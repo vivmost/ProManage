@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Login.module.css";
 import logo from "../../Assets/Art.png";
+import "font-awesome/css/font-awesome.min.css";
 
 const Login = () => {
   return (
@@ -19,17 +20,19 @@ const Login = () => {
       <div className={styles.functionGroup}>
         <div className={styles.formGroup}>
           <h4>Login</h4>
-          <div className={styles.input_icons}>
+          <div className={styles.input_container}>
+            <i className="fa fa-envelope"></i>
             <input
               className={styles.input_field}
               type="email"
               name="email"
-              placeholder="Enter mail"
+              placeholder="Email"
             />
           </div>
         </div>
+
         <div className={styles.formGroup}>
-          <div className={styles.input_icons}>
+          <div className={styles.input_container}>
             <i className="fa fa-lock"></i>
             <input
               className={styles.input_field}
@@ -41,7 +44,7 @@ const Login = () => {
           </div>
         </div>
 
-        <button className={styles.button1}>Log In</button>
+        <button className={styles.button1}>LogIn</button>
         <p>Have no account yet?</p>
         <button className={styles.button2}>Register</button>
       </div>
