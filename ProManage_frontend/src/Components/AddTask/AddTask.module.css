@@ -1,0 +1,238 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background: white;
+  font-family: "Inter", sans-serif;
+  padding: 20px;
+  border-radius: 8px;
+  width: 600px;
+  max-width: 100%;
+  position: relative;
+}
+
+.titleGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.titleGroup label {
+  margin-left: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.titleGroup label span {
+  color: red;
+}
+
+.titleControl {
+  width: 90%;
+  margin-left: 1.2rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.formControl {
+  width: 90%;
+  margin-left: 2rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.priorityGroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.priorityGroup label {
+  padding-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.priorityOptions label {
+  border: solid 0.1px lightgray;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 0.9rem;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: #767575;
+}
+
+.priorityGroup label span {
+  color: red;
+}
+
+label:has(input[type="radio"]:checked) {
+  background-color: #eeecec;
+}
+
+.priorityOptions label input {
+  display: none;
+}
+
+.priorityOptions {
+  display: flex;
+}
+
+.bullet {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.high {
+  background-color: #ff2473;
+}
+
+.moderate {
+  background-color: #18b0ff;
+}
+
+.low {
+  background-color: #63c05b;
+}
+
+.assignToContainer {
+  display: flex;
+}
+
+.assignToContainer span {
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.assignOption {
+  display: flex;
+  width: 28rem;
+  align-items: center;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.initials {
+  background: pink;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.assignButton {
+  border: solid 0.1px #767575;
+  background-color: white;
+  color: #767575;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.checklistGroup {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  overflow-y: scroll;
+  max-height: 10rem;
+}
+
+.checklistGroup label {
+  padding-bottom: 8px;
+}
+
+.checklistGroup label span {
+  color: red;
+}
+
+.checklistItem {
+  display: flex;
+  border: solid 0.1px lightgray;
+  border-radius: 8px;
+  padding: 8px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.descriptionControl {
+  width: 90%;
+  margin-left: 2rem;
+  padding: 10px;
+  border: none;
+}
+
+.deleteButton {
+  margin-left: 10px;
+}
+
+.addNew {
+  margin-left: 5px;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 1rem;
+  border: none;
+  color: #767575;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.dueDate {
+  padding: 5px;
+  border: solid 0.1px gray;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.cancelButton,
+.saveButton {
+  border: solid 1px #17a2b8;
+  border-radius: 10px;
+  margin-left: 8px;
+  padding: 10px 60px;
+  background-color: #17a2b8;
+  color: white;
+  cursor: pointer;
+}
+
+.cancelButton {
+  border: solid 1px #cf3636;
+  color: #cf3636;
+  background-color: white;
+}
+
+.toast {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: orange;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}

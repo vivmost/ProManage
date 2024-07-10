@@ -1,0 +1,68 @@
+.navbar {
+  width: 15%;
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+}
+
+.navbarheader {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbarlogo {
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+}
+
+.link {
+  color: #707070;
+  text-decoration: none;
+}
+
+.navbarbuttons {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.buttonimg {
+  width: 20px;
+  height: 20px;
+  padding-right: 15px;
+}
+
+.buttontag {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 0 10px 2.9rem;
+  border: none;
+  background-color: #fff;
+  color: #707070;
+  cursor: pointer;
+}
+
+.selected {
+  color: black;
+  background-color: #4391ed1a;
+}
+
+.logoutbutton {
+  position: relative;
+  top: 20rem;
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  border: none;
+  background-color: white;
+  color: #cf3636;
+  cursor: pointer;
+}

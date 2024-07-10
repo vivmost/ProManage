@@ -1,0 +1,48 @@
+/* src/Analytics.module.css */
+
+.analyticsContainer {
+  display: flex;
+}
+
+.analyticsContent {
+  font-family: "OpenSans", sans-serif;
+  width: 60%;
+  margin-left: 18%;
+  padding: 20px;
+  margin-top: 1.2rem;
+}
+
+.analyticsTitle {
+  font-size: 24px;
+}
+
+.boxContainer {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.box {
+  background-color: #f9fcff;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.boxItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.taskBox {
+  width: 80%;
+  display: flex;
+  font-weight: 400;
+  justify-content: space-between;
+}
+
+.bullet {
+  color: #90c4cc;
+  font-size: 2rem;
+  margin-right: 10px;
+}

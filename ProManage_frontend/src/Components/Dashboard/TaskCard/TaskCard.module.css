@@ -1,0 +1,241 @@
+.taskCard {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  transition: all 2s ease;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priority {
+  display: flex;
+  align-items: center;
+}
+
+.priority span {
+  font-size: 0.6rem;
+  color: #707070;
+}
+
+.priorityBullet {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.priorityLow {
+  background-color: #63c05b;
+}
+
+.priorityModerate {
+  background-color: #18b0ff;
+}
+
+.priorityHigh {
+  background-color: #ff2473;
+}
+
+.assignedPerson {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffebeb;
+  color: black;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.burgerMenu {
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.menuContent {
+  display: none;
+  width: 6rem;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  background: #fff;
+  box-shadow: 0 2px 8px grey;
+  border-radius: 4px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.menuContent.open {
+  display: block;
+}
+
+.menuItem {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menuDeleteItem {
+  padding: 10px;
+  cursor: pointer;
+  color: #cf3636;
+}
+
+.menuItem:hover {
+  background-color: #f0f0f0;
+}
+
+.taskTitle {
+  margin-top: 10px;
+  width: 8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+}
+.taskTitle:hover {
+  overflow: visible;
+}
+
+.taskChecklist {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.taskChecklist img {
+  cursor: pointer;
+}
+
+.checklistItems {
+  font-family: "Inter";
+  margin-top: 10px;
+}
+
+.checklistItem {
+  display: flex;
+  align-items: center;
+  border: solid 0.5px #e2e2e2;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.checklistItem span {
+  font-size: 0.95rem;
+  margin-left: 5px;
+}
+
+.taskButtons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.dueDate {
+  width: 55px;
+  height: 15px;
+  font-size: 9px;
+  margin-top: 10px;
+  padding: 3px;
+  padding-top: 4px;
+  border-radius: 8px;
+  background-color: #dbdbdb;
+  text-align: center;
+}
+
+.overdue {
+  background-color: #cf3636;
+  color: white;
+}
+
+.completed {
+  background-color: #63c05b;
+  color: white;
+}
+
+.taskSectionButtons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.taskSectionButtons button {
+  width: 55px;
+  height: 25px;
+  font-size: 8px;
+  background-color: #eeecec;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  margin-left: 5px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.modalBox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalBoxContent {
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  width: 350px;
+  height: 170px;
+}
+
+.modalBoxContent p {
+  font-family: "NotoSans", sans-serif;
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+.modalButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.modalButtons button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 580;
+  padding: 15px;
+  border: solid 1px #cf3636;
+  color: #cf3636;
+  border-radius: 16px;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  background-color: white;
+}
+
+.modalButtons button:first-child {
+  background-color: #17a2b8;
+  border: none;
+  color: white;
+}

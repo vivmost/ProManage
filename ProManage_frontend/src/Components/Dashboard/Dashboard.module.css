@@ -1,0 +1,75 @@
+.boardContainer {
+  display: flex;
+}
+
+.boardContent {
+  width: 80%;
+  margin-left: 18%;
+  padding: 20px;
+  margin-top: 20px;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.welcome {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 18px;
+  margin-right: 2rem;
+  color: #707070;
+}
+
+.boardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.boardHeading {
+  display: flex;
+  align-items: center;
+}
+
+.boardHeading span {
+  font-size: 1.8rem;
+}
+
+.addPeopleButton {
+  border: none;
+  background-color: white;
+  color: #707070;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.addPeopleButton img {
+  width: 12px;
+  height: 12px;
+  padding-right: 5px;
+}
+
+.filter {
+  margin-right: 2rem;
+  select {
+    padding: 5px;
+  }
+}
+
+.taskBoxes {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  gap: 1rem;
+  margin-top: 20px;
+}

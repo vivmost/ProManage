@@ -1,0 +1,139 @@
+.logoHeader {
+  display: flex;
+  margin: 10px;
+}
+
+.task {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.taskCard {
+  width: 25rem;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  transition: all 2s ease;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priority {
+  display: flex;
+  align-items: center;
+}
+
+.priority span {
+  font-size: 0.6rem;
+  color: #707070;
+}
+
+.priorityBullet {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.priorityLow {
+  background-color: #63c05b;
+}
+
+.priorityModerate {
+  background-color: #18b0ff;
+}
+
+.priorityHigh {
+  background-color: #ff2473;
+}
+
+.assignedPerson {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffebeb;
+  color: black;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.taskTitle {
+  margin-top: 10px;
+  width: 8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+}
+.taskTitle:hover {
+  overflow: visible;
+}
+
+.taskChecklist {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.taskChecklist img {
+  cursor: pointer;
+}
+
+.checklistItems {
+  font-family: "Inter";
+  margin-top: 10px;
+  max-height: 12rem;
+  overflow-y: scroll;
+}
+
+.checklistItem {
+  display: flex;
+  align-items: center;
+  border: solid 0.5px #e2e2e2;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.checklistItem span {
+  font-size: 0.95rem;
+  margin-left: 5px;
+}
+
+.taskButtons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.taskButtons span {
+  font-size: 0.8rem;
+  margin-right: 5px;
+}
+
+.overdue {
+  width: 55px;
+  height: 15px;
+  font-size: 12px;
+  padding: 3px;
+  padding-top: 4px;
+  border-radius: 8px;
+  background-color: #cf3636;
+  color: white;
+  text-align: center;
+}

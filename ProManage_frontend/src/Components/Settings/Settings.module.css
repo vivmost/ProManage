@@ -1,0 +1,58 @@
+.settingsContainer {
+  display: flex;
+}
+
+.settingsContent {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin-left: 18%;
+  width: 80%;
+  padding: 20px;
+  margin-top: 1.2rem;
+}
+
+.settingsContent span {
+  font-size: 1.3rem;
+}
+
+.form {
+  width: 30%;
+  margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 6px;
+  color: #828282;
+}
+
+.inputGroup img {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.inputGroup input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding-left: 10px;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.updateButton {
+  background-color: #17a2b8;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
