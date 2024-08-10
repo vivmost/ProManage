@@ -39,8 +39,8 @@ ProManage is a robust web application designed to simplify project organization,
    
 2. **Install frontend dependencies:**
 
-   git clone https://github.com/yourusername/ProManage.git
-   cd ProManage
+     cd ../client
+     npm install
    
 3. **Install backend dependencies::**
 
