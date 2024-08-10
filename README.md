@@ -39,29 +39,33 @@ ProManage is a robust web application designed to simplify project organization,
    
 2. **Install frontend dependencies:**
 
-     cd ../client
-     npm install
+     ```bash
+        cd ../client
+        npm install
+     ```
    
 3. **Install backend dependencies::**
 
-   cd ../server
-   npm install
+      ```bash
+        cd ../server
+        npm install
+     ```
 
 
 4. **Configure environment variables:**
 
-   Create a .env file in the server directory and add your environment variables (e.g., database URI, JWT secret, FRONTEND_HOST).
-   Create a .env file in the client directory and add your environment variables (e.g., BACKEND_HOST).
+   - Create a .env file in the server directory and add your environment variables (e.g., database URI, JWT secret, FRONTEND_HOST).
+   - Create a .env file in the client directory and add your environment variables (e.g., BACKEND_HOST).
    
 5. **Run the application:**
-  - **Start the backend server:**
+     - **Start the backend server:**
 
      ```bash
      cd server
      npm start
      ```
 
-   - **Start the frontend development server:**
+      - **Start the frontend development server:**
 
      ```bash
      cd ../client
