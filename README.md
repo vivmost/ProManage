@@ -34,7 +34,7 @@ ProManage is a robust web application designed to simplify project organization,
 
 1. **Clone the repository:**
 
-   git clone https://github.com/yourusername/ProManage.git
+   git clone https://github.com/vivmost/ProManage.git
    cd ProManage
    
 2. **Install frontend dependencies:**
