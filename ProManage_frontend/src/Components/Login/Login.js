@@ -13,8 +13,8 @@ import eyeSlashIcon from "../../Assets/eyeslash.png";
 import { jwtDecode } from "jwt-decode";
 
 const Login = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("guest@gmail.com");
+  const [password, setPassword] = useState("guest@123");
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
 
@@ -86,7 +86,7 @@ const Login = () => {
             <img src={envelopeIcon} alt="envelope icon" />
             <input
               type="email"
-              placeholder="guest@gmail.com"
+              placeholder="Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
@@ -101,7 +101,7 @@ const Login = () => {
             <img src={lockIcon} alt="lock icon" />
             <input
               type={showPassword ? "text" : "password"}
-              placeholder="guest@123"
+              placeholder="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
