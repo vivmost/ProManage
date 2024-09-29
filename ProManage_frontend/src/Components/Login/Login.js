@@ -86,7 +86,7 @@ const Login = () => {
             <img src={envelopeIcon} alt="envelope icon" />
             <input
               type="email"
-              placeholder="Email"
+              placeholder="guest@gmail.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
@@ -101,7 +101,7 @@ const Login = () => {
             <img src={lockIcon} alt="lock icon" />
             <input
               type={showPassword ? "text" : "password"}
-              placeholder="Password"
+              placeholder="guest@123"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
